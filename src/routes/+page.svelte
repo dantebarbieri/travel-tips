@@ -1,5 +1,9 @@
 <script lang="ts">
-	import { LOGO_PATH, TEXT_PATH } from './airbnb.paths';
+	import { LOGO_PATH as AIRBNB_LOGO_PATH, TEXT_PATH as AIRBNB_TEXT_PATH } from './airbnb.paths';
+	import {
+		LOGO_PATH as WORLD_NOMADS_LOGO_PATH,
+		TEXT_PATH as WORLD_NOMADS_TEXT_PATH
+	} from './world-nomads.paths';
 </script>
 
 <svelte:head>
@@ -39,35 +43,6 @@
 				/></a
 			> to organize lodging/tickets. Super helpful especially if you're going to be in a lot of Hostels
 			or Airbnbs. Also great for getting to tickets and rail passes quickly.
-		</p>
-	</article>
-
-	<article>
-		<h2 id="luggage-management">Luggage Management</h2>
-		<summary>
-			<section class="pros">
-				<ul>
-					<li>Generally available.</li>
-				</ul>
-			</section>
-			<section class="cons">
-				<ul>
-					<li>Need to contact lodging ahead of time.</li>
-				</ul>
-			</section>
-		</summary>
-		<p>
-			This is only necessary for trips where you're moving around a lot. If you're going to stay in
-			one place for multiple nights, this is not a problem.
-		</p>
-		<p>
-			Double check that all of your lodgings will let you drop luggage there. Hotels are great at
-			this, <a href="https://www.airbnb.com/">
-				<svg class="inline" viewBox="0 0 102 32" color="#FF385C">
-					<path d={LOGO_PATH} fill="currentcolor" /><path d={TEXT_PATH} fill="currentcolor" />
-				</svg>
-			</a>&rsquo;s vary by host (make sure to ask!), and I don't have as much experience with
-			Hostels.
 		</p>
 	</article>
 
@@ -123,6 +98,137 @@
 		</p>
 	</article>
 
+	<article>
+		<h2 id="insurance">Get Travel Insurance</h2>
+		<summary>
+			<section class="pros">
+				<ul>
+					<li>If something goes wrong you're covered.</li>
+					<li>
+						Your regular insurance (medical, car, etc.) likely doesn't have international coverage.
+					</li>
+					<li>Really not super expensive.</li>
+				</ul>
+			</section>
+			<section class="cons">
+				<ul>
+					<li>An extra expense.</li>
+					<li>You probably won't need it or use it.</li>
+				</ul>
+			</section>
+		</summary>
+		<p>
+			We used to not get travel insurance for our trips because we figured that we didn't need it.
+			Then, my father called his car insurance before we took a trip to Iceland because it would be
+			the first trip outside of North America where we'd have a car. His insurance agent told him
+			plainly that he would not be covered abroad, so he did some digging and got travel insurance.
+		</p>
+		<div>
+			<p>You're covered for the following usually:</p>
+			<ul>
+				<li>Accidental Death &amp; Dismemberment</li>
+				<li>Emergency Accident and Sickness Medical Expense (+ Dental)</li>
+				<li>Trip Cancellation</li>
+				<li>Trip Interruption</li>
+				<li>Trip Delay</li>
+				<li>Repatriation of Remains</li>
+				<li>Non-Medical Emergency Transporation</li>
+				<li>Baggage/Personal Effects</li>
+				<li>Baggage Delay</li>
+			</ul>
+			<p>
+				All of the above cost Anjali &amp; I a <strong>total</strong> of about $150 for our trip to
+				Switzerland. It's a rather safe country and we're only gone for a little over a week, but
+				the coverages are rather good in case something goes wrong and the expense is fairly minor.
+				We're on a cheaper plan because we didn't want/need car insurance. The service we ended up
+				using is called
+				<a href="https://www.worldnomads.com/travel-insurance"
+					><svg class="inline" viewBox="0 0 176 34">
+						<path d={WORLD_NOMADS_LOGO_PATH} fill="#FF9C00" />
+						<path class="recolor" d={WORLD_NOMADS_TEXT_PATH} fill="#000" />
+					</svg></a
+				>.
+			</p>
+		</div>
+	</article>
+
+	<article>
+		<h2 id="food-prep">Plan Your Food</h2>
+		<p><i>Especially if you have a picky eater in your party!</i></p>
+		<summary>
+			<section class="pros">
+				<ul>
+					<li>You get to enjoy the local cuisine from authentic eateries.</li>
+				</ul>
+			</section>
+			<section class="cons">
+				<ul>
+					<li>
+						Can take a <strong>lot</strong> more planning and requires a certain skill to do well.
+					</li>
+				</ul>
+			</section>
+		</summary>
+		<p>
+			Anjali generally recommends going to local food blogs and reading reviews of their favorite
+			restaurants with an emphasis on any dietary restrictions you may have. Because we're both
+			vegetarian, this would be a really important step for our trips, except that I can find pizza
+			anywhere.
+		</p>
+		<p>
+			My family never does this because none of us individually are foodies. My father and I have
+			always had luck finding an Italian place, and food has never been a huge part of the trip for
+			most of the family. My brother will eat anything with meat, and usually feels sad after not
+			having steak for a long time. He often tries to get steak on trips without much success.
+			Finally, my mom, who is the biggest foodie in the family will eat anything and is generally
+			happy with wherever we go eat on trips.
+		</p>
+		<p>
+			If you're a foodie or food is a major part of the trip for you, then plan your food!
+			Otherwise, you should only do this if you are really picky or have other dietary restrictions.
+			Anjali uses local food blogs to plan trips. If you're looking to travel to Austin, TX, I can
+			strongly recommend <a href="https://thevegetariancowgirl.com"
+				><img
+					class="inline recolor"
+					src="https://thevegetariancowgirl.com/static/media/Logo3.8127cce52cb4ceb28438.png"
+					alt="thevegetariancowgirl.com"
+				/></a
+			>.
+		</p>
+	</article>
+
+	<article>
+		<h2 id="luggage-management">Luggage Management</h2>
+		<summary>
+			<section class="pros">
+				<ul>
+					<li>Generally available.</li>
+				</ul>
+			</section>
+			<section class="cons">
+				<ul>
+					<li>Need to contact lodging ahead of time.</li>
+				</ul>
+			</section>
+		</summary>
+		<p>
+			This is only necessary for trips where you're moving around a lot. If you're going to stay in
+			one place for multiple nights, this is not a problem.
+		</p>
+		<p>
+			Double check that all of your lodgings will let you drop luggage there. Hotels are great at
+			this, <a href="https://www.airbnb.com/">
+				<svg class="inline" viewBox="0 0 102 32" color="#FF385C">
+					<path d={AIRBNB_LOGO_PATH} fill="currentcolor" /><path
+						d={AIRBNB_TEXT_PATH}
+						fill="currentcolor"
+					/>
+				</svg>
+			</a>&rsquo;s vary by host (make sure to ask!), and I don't have as much experience with
+			Hostels.
+		</p>
+	</article>
+
 	<p>&copy; 2023 Dante Barbieri</p>
 </main>
 
@@ -131,6 +237,10 @@
 		main {
 			background-color: #272727;
 			color: #ffffffc0;
+		}
+
+		.recolor {
+			filter: invert(100%);
 		}
 	}
 
